@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsivo.css">
+  <script src="https://kit.fontawesome.com/bd50cea79c.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js">
+</script>
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="ancho">
+    <div class=" contenedor_logo ancho">
+      <figure>
+      <img src="imagenes/pullrequest-logo.svg" alt="texto descriptivo">
+      </figure>
+      <div class="bars" id="iconomenu">
+          <i class="fa-solid fa-bars"></i>
+      </div>
+
+    </div>
+
+    <nav class="ancho" id="cajamenu">
+      <a href="#">inicio</a>
+      <a href="#">Empresa</a>
+      <a href="#">Servicios</a>
+      <a href="#">Clientes</a>
+      <a href="#">Ubicacion</a>
+      <a href="#">Contactanos</a>
+    </nav>
+
+  </header>
+
+  <section class="ancho contenido1">
+    <article class="contenidoinfo">
+      <h1>Creacion  de paginas web</h1>
+      <h2>curso basico de HTML y CSS3 </h2>
+      <br>
+      <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatum facilis consequatur error saepe? Veritatis dolores unde dolorum, alias quod distinctio adipisci delectus neque optio sequi tenetur ut cumque qui?
+      </P>
+      <br>
+      <button type="button">ver</button>
+    </article>
+
+    <article class="figura">
+      <figure>
+        <img src="imagenes/foto_pullrequest.svg">
+      </figure>
+    </article>
+  </section>
+  <footer class="ancho">
+    <p>@josiascruz</p>
+  </footer>
+
+  <script>
+
+$("#iconomenu").click(function() {
+  $("#cajamenu").slideToggle();
+});
+
+  </script>
+
+</body>
+</html>
